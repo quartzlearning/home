@@ -10988,5 +10988,23 @@ body.theme--dark {
   border: 2px solid #1680fb;
 }
 
+/* General styling for the iframe */
+#jotform-embed {
+  width: 100%;
+  height: 100vh; /* Adjust height as needed */
+  border: none;
+}
 
+/* Responsive styling for mobile devices */
+@media only screen and (max-width: 768px) {
+  #jotform-embed {
+      height: 80vh; /* Adjust height for mobile view as needed */
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #jotform-embed {
+      height: 70vh; /* Adjust height for smaller mobile view as needed */
+  }
+}
 
